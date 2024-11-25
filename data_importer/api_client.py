@@ -9,6 +9,7 @@ def fetch_phone_data(api_url):
     try:
         response = requests.get(api_url)
         response.raise_for_status()
+        logger.info("Fetched data from API")
         return response.json()
     except requests.RequestException as e:
         logger.error(f"Error fetching data from API: {e}")

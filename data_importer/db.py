@@ -22,6 +22,7 @@ def connect_to_db():
             password=config['password'],
             dbname=config['dbname']
         )
+        logger.info("Connected to the database is successful")
         return connection
     except psycopg2.Error as e:
         logger.error(f"Error connecting to the database: {e}")
@@ -38,6 +39,7 @@ def create_table_if_not_exists(connection):
                 CONSTRAINT api_objects_pkey PRIMARY KEY (phoneid)
             );
         """)
+        logger.info(f"Creating table 'phone'.....")
         connection.commit()
     except psycopg2.Error as e:
         logger.error(f"Error creating table: {e}")
@@ -63,6 +65,7 @@ def insert_phone_data(phone_data):
                 """,
                 (phone['id'], phone['name'], json.dumps(phone['data']))
             )
+            logger.info(f"Inserted phone data with id: {phone['id']}")
         except psycopg2.Error as e:
             logger.error(f"Error inserting data into the database: {e}")
             connection.rollback()

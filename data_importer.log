@@ -1,56 +1,190 @@
-2024-11-25 06:11:25,072 - data_importer.db - ERROR - Error creating table: permission denied for schema public
+2024-11-25 06:30:31,269 - data_importer.models - INFO - Transformed phone data into the required format
+2024-11-25 06:30:31,480 - data_importer.db - INFO - Connected to the database is successful
+2024-11-25 06:30:31,495 - data_importer.db - ERROR - Error creating table: schema "public" does not exist
 LINE 2:             CREATE TABLE IF NOT EXISTS public.phone (
                                                ^
 
-2024-11-25 06:11:25,077 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+2024-11-25 06:30:31,500 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
 LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
                                     ^
 
-2024-11-25 06:11:25,080 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+2024-11-25 06:30:31,504 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
 LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
                                     ^
 
-2024-11-25 06:11:25,083 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+2024-11-25 06:30:31,511 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
 LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
                                     ^
 
-2024-11-25 06:11:25,085 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+2024-11-25 06:30:31,515 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
 LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
                                     ^
 
-2024-11-25 06:11:25,087 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+2024-11-25 06:30:31,519 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
 LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
                                     ^
 
-2024-11-25 06:11:25,091 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+2024-11-25 06:30:31,528 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
 LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
                                     ^
 
-2024-11-25 06:11:25,095 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+2024-11-25 06:30:31,531 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
 LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
                                     ^
 
-2024-11-25 06:11:25,096 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+2024-11-25 06:30:31,535 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
 LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
                                     ^
 
-2024-11-25 06:11:25,101 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+2024-11-25 06:30:31,538 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
 LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
                                     ^
 
-2024-11-25 06:11:25,102 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+2024-11-25 06:30:31,545 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
 LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
                                     ^
 
-2024-11-25 06:11:25,104 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+2024-11-25 06:30:31,550 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
 LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
                                     ^
 
-2024-11-25 06:11:25,110 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+2024-11-25 06:30:31,553 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
 LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
                                     ^
 
-2024-11-25 06:11:25,113 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+2024-11-25 06:30:31,556 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
 LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
                                     ^
 
+2024-11-25 06:30:49,209 - data_importer.models - INFO - Transformed phone data into the required format
+2024-11-25 06:30:49,370 - data_importer.db - INFO - Connected to the database is successful
+2024-11-25 06:30:49,399 - data_importer.db - ERROR - Error creating table: schema "public" does not exist
+LINE 2:             CREATE TABLE IF NOT EXISTS public.phone (
+                                               ^
+
+2024-11-25 06:30:49,403 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
+                                    ^
+
+2024-11-25 06:30:49,408 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
+                                    ^
+
+2024-11-25 06:30:49,410 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
+                                    ^
+
+2024-11-25 06:30:49,417 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
+                                    ^
+
+2024-11-25 06:30:49,424 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
+                                    ^
+
+2024-11-25 06:30:49,429 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
+                                    ^
+
+2024-11-25 06:30:49,432 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
+                                    ^
+
+2024-11-25 06:30:49,435 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
+                                    ^
+
+2024-11-25 06:30:49,439 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
+                                    ^
+
+2024-11-25 06:30:49,443 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
+                                    ^
+
+2024-11-25 06:30:49,447 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
+                                    ^
+
+2024-11-25 06:30:49,454 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
+                                    ^
+
+2024-11-25 06:30:49,457 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
+                                    ^
+
+2024-11-25 06:31:11,065 - data_importer.models - INFO - Transformed phone data into the required format
+2024-11-25 06:31:11,335 - data_importer.db - INFO - Connected to the database is successful
+2024-11-25 06:31:11,363 - data_importer.db - ERROR - Error creating table: schema "public" does not exist
+LINE 2:             CREATE TABLE IF NOT EXISTS public.phone (
+                                               ^
+
+2024-11-25 06:31:11,367 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
+                                    ^
+
+2024-11-25 06:31:11,369 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
+                                    ^
+
+2024-11-25 06:31:11,371 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
+                                    ^
+
+2024-11-25 06:31:11,373 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
+                                    ^
+
+2024-11-25 06:31:11,375 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
+                                    ^
+
+2024-11-25 06:31:11,377 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
+                                    ^
+
+2024-11-25 06:31:11,378 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
+                                    ^
+
+2024-11-25 06:31:11,379 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
+                                    ^
+
+2024-11-25 06:31:11,380 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
+                                    ^
+
+2024-11-25 06:31:11,381 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
+                                    ^
+
+2024-11-25 06:31:11,382 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
+                                    ^
+
+2024-11-25 06:31:11,383 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
+                                    ^
+
+2024-11-25 06:31:11,384 - data_importer.db - ERROR - Error inserting data into the database: relation "public.phone" does not exist
+LINE 2:                 INSERT INTO public.phone (phoneid, phone_nam...
+                                    ^
+
+2024-11-25 06:32:10,845 - data_importer.models - INFO - Transformed phone data into the required format
+2024-11-25 06:32:11,085 - data_importer.db - INFO - Connected to the database is successful
+2024-11-25 06:32:11,252 - data_importer.db - INFO - Creating table 'phone'.....
+2024-11-25 06:32:11,271 - data_importer.db - INFO - Inserted phone data with id: 1
+2024-11-25 06:32:11,276 - data_importer.db - INFO - Inserted phone data with id: 2
+2024-11-25 06:32:11,281 - data_importer.db - INFO - Inserted phone data with id: 3
+2024-11-25 06:32:11,292 - data_importer.db - INFO - Inserted phone data with id: 4
+2024-11-25 06:32:11,298 - data_importer.db - INFO - Inserted phone data with id: 5
+2024-11-25 06:32:11,308 - data_importer.db - INFO - Inserted phone data with id: 6
+2024-11-25 06:32:11,315 - data_importer.db - INFO - Inserted phone data with id: 7
+2024-11-25 06:32:11,320 - data_importer.db - INFO - Inserted phone data with id: 8
+2024-11-25 06:32:11,326 - data_importer.db - INFO - Inserted phone data with id: 9
+2024-11-25 06:32:11,340 - data_importer.db - INFO - Inserted phone data with id: 10
+2024-11-25 06:32:11,348 - data_importer.db - INFO - Inserted phone data with id: 11
+2024-11-25 06:32:11,354 - data_importer.db - INFO - Inserted phone data with id: 12
+2024-11-25 06:32:11,365 - data_importer.db - INFO - Inserted phone data with id: 13
