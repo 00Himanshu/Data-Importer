@@ -5,5 +5,5 @@ def setup_logger():
                         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                         handlers=[
                             logging.StreamHandler(),
-                            logging.FileHandler('data_importer.log')gitgig
+                            logging.FileHandler('data_importer.log')
                         ])
